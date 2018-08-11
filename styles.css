@@ -11,7 +11,11 @@ STYLE SHEET
 
 body {
     background-color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
 }
 
 /* 
@@ -37,7 +41,13 @@ body {
     padding: 20px;
 }
 
-.main{
+.topmain{
+    flex: 70%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.bottommain{
     flex: 70%;
     background-color: #f1f1f1;
     padding: 20px;
